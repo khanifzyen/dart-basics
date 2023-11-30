@@ -332,18 +332,17 @@ Operator yang melakukan operasi logika seperti logika AND dan logika OR, operato
 
 > **Tugas Latihan 1**
 >
-> 1. Write a program to print your name in Dart.
-> 2. Write a program to print Hello I am “John Doe” and Hello I’am “John Doe” with single and double quotes.
-> 3. Declare constant type\*\* of int set value 7.
-> 4. Write a program in Dart that finds simple interest. Formula= (p _ t _ r) / 100
-> 5. Write a program to print a square of a number using user input.
-> 6. Write a program to print full name of a from first name and last name using user input.
-> 7. Write a program to find quotient and remainder of two integers.
-> 8. Write a program to swap two numbers.
-> 9. Write a program in Dart to remove all whitespaces from String.
-> 10. Write a dart program to convert String to int.
-> 11. Suppose, you often go to restaurant with friends and you have to split amount of bill.
-> 12. Write a program to calculate split amount of bill. Formula= (total bill amount) / number of people
+> 1. Buat program untuk mencetak nama Anda di Dart.
+> 2. Tulis program untuk mencetak Hello, saya "John Doe" dan Hello, saya "John Doe" dengan tanda kutip tunggal dan ganda.
+> 3. Deklarasikan konstanta dengan tipe\*\* int dan beri nilai 7.
+> 4. Tulis program dalam Dart yang menemukan bunga sederhana. Rumus= (p _ t _ r) / 100
+> 5. Buat program untuk mencetak persegi dari suatu angka menggunakan input pengguna.
+> 6. Buat program untuk mencetak nama lengkap dari a berdasarkan nama depan dan nama belakang menggunakan input pengguna.
+> 7. Buat program untuk menemukan hasil bagi dan sisa dari dua bilangan bulat.
+> 8. Buat program untuk menukar dua bilangan.
+> 9. Tulis program di Dart untuk menghapus semua spasi dari String.
+> 10. Tulis program Dart untuk mengonversi String menjadi int.
+> 11. Misalkan, Anda sering pergi ke restoran dengan teman-teman dan harus membagi jumlah tagihan. Tulis program untuk menghitung jumlah pembagian tagihan. Rumus= (total jumlah tagihan) / jumlah orang
 
 ## If else condition atau percabangan
 
