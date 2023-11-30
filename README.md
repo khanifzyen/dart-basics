@@ -1,6 +1,6 @@
 # Pengantar Dart
-Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad Khanif Zyen | 2023
 
+Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad Khanif Zyen | 2023
 
 Flutter framework dikembangkan menggunakan bahasa pemrograman dart. Untuk itu mari kita mengenal dulu apa itu bahasa pemrograman dart.
 
@@ -10,6 +10,7 @@ Bahasa pemrograman dart dirancang dan dikembangkan oleh Lars Bak dan Kasper Lund
 
 Dart bisa digunakan untuk membuat aplikasi android, iOS, front-end web, IoT, backend (CLI), dan Game.
 Contoh beberapa aplikasi yang dibangun dengan Dart:
+
 - Google Adsense (front-end)
 - Google AdWords (front-end)
 - Google Fiber (front-end)
@@ -23,11 +24,12 @@ Dart dapat digunakan pada tiga platform ini:
 
 1. Flutter
 
-    Apabila kita ingin membuat aplikasi Android dan iOS dengan bahasa pemrograman Dart, maka kita harus menggunakan framework Flutter. Flutter adalah sebuah framework yang dirancang khusus untuk membangun antarmuka (UI) aplikasi mobile
+   Apabila kita ingin membuat aplikasi Android dan iOS dengan bahasa pemrograman Dart, maka kita harus menggunakan framework Flutter. Flutter adalah sebuah framework yang dirancang khusus untuk membangun antarmuka (UI) aplikasi mobile
 
 2. Web
 
-    Penggunaan Dart pada web biasanya dalam bentuk front-end. Kode program Dart dapat dikompilasi menjadi kode Javascript, sehingga web browser dapat mengeksekusinya. Biasanya, pengembangan web dengan Dart menggunakan framework:
+   Penggunaan Dart pada web biasanya dalam bentuk front-end. Kode program Dart dapat dikompilasi menjadi kode Javascript, sehingga web browser dapat mengeksekusinya. Biasanya, pengembangan web dengan Dart menggunakan framework:
+
    - AngularDart
    - Material Design Lite (MDL)/Dart
    - OverReact
@@ -47,7 +49,7 @@ Meskipun bahasa pemrograman dart dinilai masih baru. Namun berikut adalah bebera
 
 ### 1. Mudah Dipelajari
 
-Setiap developer pasti menginginkan sebuah bahasa 
+Setiap developer pasti menginginkan sebuah bahasa
 pemrograman yang mudah dipelajari, Anda bisa menemukannya saat Anda mempelajari bahasa pemrograman dart. Terlebih lagi, jika Anda sudah pandai dalam bahasa pemrograman JavaScript, Java, atau C# tentu akan sangat mudah Anda untuk bisa menyesuaikan penulisan kode di bahasa pemrograman dart. Anda hanya perlu mempelajari prinsip-prinsip dasar dari bahasa pemrograman tersebut.
 
 ### 2. Dokumentasi yang Lengkap
@@ -89,11 +91,11 @@ Sebagai framework, semua library flutter ditulis menggunakan bahasa pemrograman 
 
 ### Dart sdk ada di dalam flutter
 
-Ketika kita install flutter, maka dart sdk otomatis ikut terinstall, jadi  tidak perlu install secara terpisah. Update versi pada flutter sering kali diikuti oleh update versi juga pada dart.
+Ketika kita install flutter, maka dart sdk otomatis ikut terinstall, jadi tidak perlu install secara terpisah. Update versi pada flutter sering kali diikuti oleh update versi juga pada dart.
 
 Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad Khanif Zyen | 2023
 
-# Dasar Dart 
+# Dasar Dart
 
 Setelah sebelumnya kita mengenal apa itu bahasa pemrograman dart, kali ini kita akan masuk belajar algoritma bahasa pemrograman dart dasar
 
@@ -101,7 +103,7 @@ Bahasa Pemrograman dart mempunyai sintak atau cara penulisannya sendiri. Namun s
 
 ## Starting point
 
-Program yang ditulis menggunakan bahasa pemrograman 
+Program yang ditulis menggunakan bahasa pemrograman
 dart dimulai dengan sintak seperti dibawah:
 
 ```dart
@@ -110,7 +112,7 @@ void main() {
 }
 ```
 
-Pertama dimulai dari kata void lalu ikuti dengan kata ```main(){}```. Kode kita berada didalam kurung kurawal.
+Pertama dimulai dari kata void lalu ikuti dengan kata `main(){}`. Kode kita berada didalam kurung kurawal.
 
 ## Data Types
 
@@ -119,29 +121,34 @@ Data types atau tipe data adalah klasifikasi variable untuk menentukan data yang
 ### 1. String
 
 String adalah kumpulan huruf, angka, dan tanda baca lainnya. Jadi isinya bebas asalkan tulisan.
+
 ```dart
 void main() {
  String data = ‘Hello Pemrograman Mobile’;
  print(data);
 }
 ```
+
 Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad Khanif Zyen | 2023
+
 ### 2. Num (num)
 
 Num, merupakan bilangan bulat dan bilangan pecahan. Tipe data ini bisa menjadi integer ataupun double, sesuai nanti data yang diinputkan.
+
 ```dart
 void main() {
  num data = 20;
  print(data);
  num data2 = 22.2;
  print(data);
-} 
+}
 ```
 
 ### 3. Integer (int)
 
 Integer merupakan tipe data yang merepresentasikan angka tanpa desimal.
-```dart 
+
+```dart
 void main() {
  int myInteger = 10;
  print(myInteger);
@@ -150,16 +157,21 @@ void main() {
 
 ### 4. Double (double)
 
-double merupakan angka desimal. 
+double merupakan angka desimal.
+
 ```dart
 void main() {
  double myDouble = 0.1;
  print(myDouble);
 }
 ```
+
 Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad Khanif Zyen | 2023
+
 ### 5. Boolean (bool)
+
 Merupakan tipe data yang berisikan kebenaran (true/false)
+
 ```dart
 void main() {
  bool data = true;
@@ -170,6 +182,7 @@ void main() {
 ### 6. List
 
 List merupakan tumpukan data. Jika kalian familiar dengan java atau javascript, List merupakan sebuah Array.
+
 ```dart
 void main() {
  List data = [1,2,3,’a’,’b’, ‘c’];
@@ -180,6 +193,7 @@ void main() {
 ### 7. Map
 
 Jika kalian mengerti Javascript Object Notation (JSON), maka kalian akan lebih mudah memahami apa itu Map. Map merupakan pasangan kunci dan isi. Kunci dan isi tersebut biasa dipanggil dengan key dan value. Setiap key dan value dapat dideklarasikan tipe datanya.
+
 ```dart
 void main() {
     Map<String, dynamic> data = {
@@ -189,11 +203,14 @@ void main() {
     print(data);
 }
 ```
+
 Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad Khanif Zyen | 2023
+
 ### 8. Dynamic (dynamic)
 
-Dynamic merupakan tipe data yang isinya bisa berubah, dynamic bisa berupa integer, string, double, num, object, dan lain sebagainya. Contoh 
+Dynamic merupakan tipe data yang isinya bisa berubah, dynamic bisa berupa integer, string, double, num, object, dan lain sebagainya. Contoh
 sebagai berikut:
+
 ```dart
 void main() {
     dynamic a = 12.2;
@@ -203,105 +220,139 @@ void main() {
 ```
 
 ### 9. Object (object)
+
 Merupakan kelas dasar dari semua object yang ada di dart.
+
 ```dart
 void main() {
     Object object = "Flutter Engineering";
     print(object);
 }
 ```
+
 ### 10. var
 
 var merupakan tipe data yang digunakan untuk mendeklarasikan Object dari variable yang dipanggil.
+
 ```dart
 void main() {
-    var penulis = ‘Sayuti’; 
+    var penulis = ‘Sayuti’;
     print(penulis);
 }
 ```
+
 Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad Khanif Zyen | 2023
+
 ## Variable
 
-Variabel merupakan lokasi penyimpanan yang ada di memori. Setiap variabel memiliki kemampuan menyimpan suatu informasi sesuai dengan tipe data yang dideklarasikan untuk variabel tersebut saja 
+Variabel merupakan lokasi penyimpanan yang ada di memori. Setiap variabel memiliki kemampuan menyimpan suatu informasi sesuai dengan tipe data yang dideklarasikan untuk variabel tersebut saja
 
 ### Contoh Variable
+
 ```dart
 var umur = 18;
 dynamic nama = ‘khanif;
 String kota = ‘Jepara’;
 ```
+
 Kode di atas mendeklarasikan suatu variabel yang bernama kota dengan tipe data String
 
 ## Operators
 
 Operator yaitu sebuah simbol yang digunakan melakukan operasi, biasanya digunakan untuk memanipulasi atau memodifikasi data.
 
-## Jenis Operator 
+## Jenis Operator
+
 1. Operator Aritmatika
 2. Operator Perbandingan dan Relasional
 3. Operator Cek Tipe data
 4. Operator Logika
 
-
 Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad Khanif Zyen | 2023
 
 ### 1. Operator aritmatika
+
 Operator Aritmatika adalah operator yang melakukan operasi seperti penjumlahan, pengurangan, perkalian, dan pembagian. Di bawah ini adalah daftar operator dalam pemrograman dart.
 | **Operator** | **Deskripsi** |
 |--------------|---------------|
-| +            | Penjumlahan   |
-| -            | Pengurangan   |
-| *            | Perkalian     |
-| /            | Pembagian     |
-| %            | Hasil bagi    |
+| + | Penjumlahan |
+| - | Pengurangan |
+| \* | Perkalian |
+| / | Pembagian |
+| % | Hasil bagi |
+
 ```dart
 int c = 6;
 c = c+ 6; // c = 12
 ```
+
 ### 2. Operator Relasional
+
 Operator relasional adalah operator yang melakukan operasi membandingkan operand tipe data misalnya saja kurang dari, lebih besar dari dan sebagainya.
-| **Operator** | **Deskripsi**                |
+| **Operator** | **Deskripsi** |
 |--------------|------------------------------|
-| >            | Lebih besar dari             |
-| <            | Lebih kecil dari             |
-| >=           | Lebih besar atau sama dengan |
-| <=           | Lebih kecil atau sama dengan |
-| !=           | Tidak sama dengan            |
-| ==           | Tepat sama dengan            |
+| > | Lebih besar dari |
+| < | Lebih kecil dari |
+| >= | Lebih besar atau sama dengan |
+| <= | Lebih kecil atau sama dengan |
+| != | Tidak sama dengan |
+| == | Tepat sama dengan |
+
 ```dart
 String kota = ‘Jepara’;
-if(kota == ‘Jepara’) true 
+if(kota == ‘Jepara’) true
 else false;
 ```
+
 ### 3. Operator Cek Tipe data
+
 Digunakan untuk memeriksa jenis tipe data objek saat runtime.
-| **Operator** | **Deskripsi**                            | **Contoh**    |
+| **Operator** | **Deskripsi** | **Contoh** |
 |--------------|------------------------------------------|---------------|
-| as           | mengubah object menjadi tipe lain          | ```obj as String``` |
-| is           | true jika object memiliki tipe tertentu  | ```obj is double``` |
-| is!          | false jika object memiliki tipe tertentu | ```obj is! int```   |
+| as | mengubah object menjadi tipe lain | `obj as String` |
+| is | true jika object memiliki tipe tertentu | `obj is double` |
+| is! | false jika object memiliki tipe tertentu | `obj is! int` |
 
 Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad Khanif Zyen | 2023
 
 ### 4. Operator Logika
+
 Operator yang melakukan operasi logika seperti logika AND dan logika OR, operator logika digunakan untuk menghasilkan nilai boolean true atau false dari 2 kondisi atau lebih.
-| **Operator** | **Nama Operator** | **Deskripsi**                                                                                                    |
+| **Operator** | **Nama Operator** | **Deskripsi** |
 |--------------|-------------------|------------------------------------------------------------------------------------------------------------------|
-| !            | _Logical_ **NOT** | Membalikkan keadaan logis operandnya, jika kondisi true maka operator NOT Logical akan menghasilkan nilai false. |
-| \|\|         | _Logical_ **OR**  | Jika salah satu dari 2 operandnya true, maka menghasilkan output true.                                           |
-| &&           | _Logical_ **AND** | Jika kedua operand true, maka hasilnya true.                                                                     |
+| ! | _Logical_ **NOT** | Membalikkan keadaan logis operandnya, jika kondisi true maka operator NOT Logical akan menghasilkan nilai false. |
+| \|\| | _Logical_ **OR** | Jika salah satu dari 2 operandnya true, maka menghasilkan output true. |
+| && | _Logical_ **AND** | Jika kedua operand true, maka hasilnya true. |
+
 ```dart
   var A = true;
   var B = false;
   var expr = A && B; //false
 ```
 
+> **Tugas Latihan 1**
+>
+> 1. Write a program to print your name in Dart.
+> 2. Write a program to print Hello I am “John Doe” and Hello I’am “John Doe” with single and double quotes.
+> 3. Declare constant type\*\* of int set value 7.
+> 4. Write a program in Dart that finds simple interest. Formula= (p _ t _ r) / 100
+> 5. Write a program to print a square of a number using user input.
+> 6. Write a program to print full name of a from first name and last name using user input.
+> 7. Write a program to find quotient and remainder of two integers.
+> 8. Write a program to swap two numbers.
+> 9. Write a program in Dart to remove all whitespaces from String.
+> 10. Write a dart program to convert String to int.
+> 11. Suppose, you often go to restaurant with friends and you have to split amount of bill.
+> 12. Write a program to calculate split amount of bill. Formula= (total bill amount) / number of people
+
 ## If else condition atau percabangan
 
-Pernyataan if digunakan untuk menguji suatu kondisi  kemudian mengerjakan pernyataan yang lain sesuai hasil pengujian.
+Pernyataan if digunakan untuk menguji suatu kondisi kemudian mengerjakan pernyataan yang lain sesuai hasil pengujian.
 
 ### Studi kasus IF
+
 Di dalam studi kasus menggunakan if kali ini kita akan mencoba mengosongkan sebuah daftar dengan kondisi if hanya saja jika kondisi tersebut tidak kosong. kita dapat memeriksa apakah sebuah koleksi kosong atau tidak, menggunakan properti isEmpty dan isNotEmpty. properti isEmpty memiliki pengertian bernilai true jika koleksi yang kita masukkan kosong, sedangkan properti isNotEmpty akan bernilai true jika koleksi yang kita masukkan tidak kosong.
+
 ```dart
 void main() {
     var testList = [2,4,8,16,32];
@@ -319,11 +370,14 @@ void main() {
 Switch dan case adalah control flow yang sejenis dengan if dan else dimana switch case ini digunakan untuk percabangan.
 
 ### Studi kasus SWITCH CASE
+
 Seorang pendaki melakukan pendakiannya pada pagi hari, dia sudah melakukan instruksi kepada semua anggota pendakinya untuk melakukan hal hal ini :
+
 1. Saat tiba di pos 1 team akan makan snack
 2. Saat tiba di pos 2 team akan makan daging
 3. Saat tiba di pos 3 team akan makan sayur
 4. saat tiba dipuncak team akan bergembira
+
 ```dart
 void main(){
     int posSaatIni = 10;
@@ -349,7 +403,9 @@ void main(){
 ## Looping atau perulangan
 
 ### Perulangan For
+
 Pernyataan for digunakan untuk melakukan perulangan dengan menentukan kondisi perulangan dan pernyataan increment / decrement.
+
 ```dart
 //sintaks:
 for(inisiasi;kondisi;increment){
@@ -358,6 +414,7 @@ for(inisiasi;kondisi;increment){
     ...
 }
 ```
+
 ```dart
 for(var=1;i<=10;i++>){
     print("Number $i");
@@ -365,7 +422,9 @@ for(var=1;i<=10;i++>){
 ```
 
 ### Perulangan While
+
 Pernyataan while digunakan untuk melakukan perulangan dengan menentukan kondisi yang menyebabkan perulangan dihentikan.
+
 ```dart
 //sintaks:
 while(ekpresi){
@@ -374,6 +433,7 @@ while(ekpresi){
     ...
 }
 ```
+
 ```dart
 int i=1;
 while(i<=10){
@@ -382,7 +442,9 @@ while(i<=10){
 ```
 
 ### Perulangan Do While
+
 Statement do while hampir sama dengan while. Perbedaannya, jika do while hanya melakukan satu kali perulangan dulu, kemudian mengecek kondisinya. Sedangkan while kondisi di cek dulu baru kemudian statement perulangannya dijalankan.
+
 ```dart
 int i=1;
 do {
@@ -391,7 +453,9 @@ do {
 ```
 
 ### Perulangan For in
+
 Struktur perulangan for in digunakan untuk menampilkan isi yang ada dalam array atau list, perulangan for in sebenarnya sama dengan perulangan for yang bedakan cuma kata kunci in dan tidak mengeluarkan nilai index nya.
+
 ```dart
 List<String> listNama = ['agus', 'budi', 'cahyo'];
 for(String nama in listNama){
