@@ -335,7 +335,7 @@ Operator yang melakukan operasi logika seperti logika AND dan logika OR, operato
 > 1. Buat program untuk mencetak nama Anda di Dart.
 > 2. Tulis program untuk mencetak Hello, saya "John Doe" dan Hello, saya "John Doe" dengan tanda kutip tunggal dan ganda.
 > 3. Deklarasikan konstanta dengan tipe\*\* int dan beri nilai 7.
-> 4. Tulis program dalam Dart yang menemukan bunga sederhana. Rumus= (p _ t _ r) / 100
+> 4. Tulis program dalam Dart yang menemukan bunga sederhana. Rumus= (p \* t \* r) / 100
 > 5. Buat program untuk mencetak persegi dari suatu angka menggunakan input pengguna.
 > 6. Buat program untuk mencetak nama lengkap dari a berdasarkan nama depan dan nama belakang menggunakan input pengguna.
 > 7. Buat program untuk menemukan hasil bagi dan sisa dari dua bilangan bulat.
@@ -462,7 +462,7 @@ for(String nama in listNama){
 }
 ```
 
-> Tugas Latihan 2
+> **Tugas Latihan 2**
 >
 > 1. Buat program Dart yang mengambil usia pengguna sebagai input dan menentukan apakah orang tersebut memenuhi syarat untuk memilih atau tidak berdasarkan usianya.
 > 2. Buat program Dart yang mengambil angka sebagai input dan menggunakan pernyataan switch-case untuk mencetak apakah angka tersebut positif, negatif, atau nol.
