@@ -128,7 +128,15 @@ Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad
 
 Setelah sebelumnya kita mengenal apa itu bahasa pemrograman dart, kali ini kita akan masuk belajar algoritma bahasa pemrograman dart dasar
 
-Bahasa Pemrograman dart mempunyai sintak atau cara penulisannya sendiri. Namun sintak yang dimiliki dart mirip dengan java/javascript/c#. Yuk mulai dari starting pointnya dulu.
+Bahasa Pemrograman dart mempunyai sintak atau cara penulisannya sendiri. Namun sintak yang dimiliki dart mirip dengan java/javascript/c#.
+
+Dasar dart mencakup materi tentang:
+
+1. [Tipe Data](#data-types)
+2. [Variabel](#variable)
+3. [Operator](#operators)
+4. [Percabangan](#if-else-condition-atau-percabangan)
+5. [Perulangan](#looping-atau-perulangan)
 
 ## Starting point
 
@@ -226,7 +234,7 @@ Jika kalian mengerti Javascript Object Notation (JSON), maka kalian akan lebih m
 ```dart
 void main() {
     Map<String, dynamic> data = {
-        ‘url’: https://unisnujepara.ac.id/’,
+        ‘url’: https://unisnu.ac.id/’,
         ‘topic’: ‘Flutter Engineering’,
     };
     print(data);
