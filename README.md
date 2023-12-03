@@ -2,6 +2,35 @@
 
 Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad Khanif Zyen | 2023
 
+> **Cara menggunakan modul ini:**
+>
+> 1. Login ke akun github anda.
+> 2. Star ke repository ini.
+> 3. Fork repository ini sehingga masuk ke repository di akun github masing-masing.
+> 4. Clone project dari repository github masing-masing.
+>    ```bash
+>    git clone https://github.com/namauser/dart-basics.git
+>    ```
+> 5. Buat branch baru `dev` dan gunakan sebagai branch yang aktif.
+>
+>    ```bash
+>    git checkout -b dev
+>    ```
+>
+> 6. Mulai praktek, selesai praktek lakukan commit dengan label sesuai materi yang dikerjakan.
+>
+>    ```bash
+>    git add .
+>    git commit -m "perulangan for in"
+>    ```
+>
+> 7. Lakukan push ke repository github masing-masing
+>    ```bash
+>    git push -u origin dev
+>    ```
+> 8. Jika sudah selesai semua, kembali ke repository ini, kemudian masuk ke menu `issue`, tulis identitas diri (NIM, Nama) dan link repo github hasil dari fork project ini.
+> 9. Penilaian berdasarkan commit di branch `dev` pada repo akun github masing-masing.
+
 Flutter framework dikembangkan menggunakan bahasa pemrograman dart. Untuk itu mari kita mengenal dulu apa itu bahasa pemrograman dart.
 
 ## Apa itu bahasa pemrograman dart?
