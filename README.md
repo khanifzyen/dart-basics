@@ -2,6 +2,8 @@
 
 Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad Khanif Zyen | 2023
 
+---
+
 > **Cara menggunakan modul ini:**
 >
 > 1. Login ke akun github anda.
@@ -166,7 +168,11 @@ void main() {
 }
 ```
 
-Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad Khanif Zyen | 2023
+**Catatan:** String dalam dart sebenarnya adalah sebuah class, dan ia memiliki extensions method. Artinya string bisa memiliki fungsionalitas yang lain, semisal ingin mengubah isi string menjadi huruf besar semua, bisa menggunakan `.toUpperCase()`.
+
+Baca Dokumentasi Resmi:
+
+- [String.](https://api.dart.dev/stable/3.2.3/dart-core/String-class.html)
 
 ### 2. Num (num)
 
@@ -181,6 +187,12 @@ void main() {
 }
 ```
 
+Sama seperti string, num juga memiliki extensions methodnya sendiri.
+
+Baca Dokumentasi Resmi:
+
+- [num.](https://api.dart.dev/stable/3.2.3/dart-core/num-class.html)
+
 ### 3. Integer (int)
 
 Integer merupakan tipe data yang merepresentasikan angka tanpa desimal.
@@ -191,6 +203,12 @@ void main() {
  print(myInteger);
 }
 ```
+
+Sama seperti num, int juga memiliki extensions methodnya sendiri.
+
+Baca Dokumentasi Resmi:
+
+- [int.](https://api.dart.dev/stable/3.2.3/dart-core/int-class.html)
 
 ### 4. Double (double)
 
@@ -203,7 +221,9 @@ void main() {
 }
 ```
 
-Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad Khanif Zyen | 2023
+Baca Dokumentasi Resmi:
+
+- [double.](https://api.dart.dev/stable/3.2.3/dart-core/double-class.html)
 
 ### 5. Boolean (bool)
 
@@ -216,6 +236,10 @@ void main() {
 }
 ```
 
+Baca Dokumentasi Resmi:
+
+- [bool.](https://api.dart.dev/stable/3.2.3/dart-core/double-class.html)
+
 ### 6. List
 
 List merupakan tumpukan data. Jika kalian familiar dengan java atau javascript, List merupakan sebuah Array.
@@ -226,6 +250,10 @@ void main() {
  print(data);
 }
 ```
+
+Baca Dokumentasi Resmi:
+
+- [List.](https://api.dart.dev/stable/3.2.3/dart-core/List-class.html)
 
 ### 7. Map
 
@@ -239,9 +267,12 @@ void main() {
     };
     print(data);
 }
+
 ```
 
-Modul Mata Kuliah Pemrograman Mobile | Teknik Informatika UNISNU JEPARA | Akhmad Khanif Zyen | 2023
+Baca Dokumentasi Resmi:
+
+- [Map.](https://api.dart.dev/stable/3.2.3/dart-core/Map-class.html)
 
 ### 8. Dynamic (dynamic)
 
@@ -367,14 +398,60 @@ Operator yang melakukan operasi logika seperti logika AND dan logika OR, operato
   var expr = A && B; //false
 ```
 
+## Menerima Input dari Pengguna dalam dart
+
+Daripada menulis nilai yang telah ditentukan secara permanen di kode, Anda dapat memberikan masukan ke komputer. Ini akan membuat program Anda lebih dinamis. Anda harus mengimpor paket dengan `import 'dart:io'`; untuk dapat menerima input dari keyboard pengguna.
+
+### Menerima input jenis string
+
+Biasanya digunakan untuk menyimpan user input yang tekstual seperti nama, alamat, keterangan, dan lain-lain.
+
+```dart
+import 'dart:io';
+
+void main() {
+  print("Masukkan nama:");
+  String? nama  = stdin.readLineSync();
+  print("Nama anda adalah ${nama}");
+}
+```
+
+### Menerima input jenis integer
+
+Anda dapat menggunakan input integer untuk menerima nilai numerik dari user tanpa nilai desimal, seperti 10, 100, -800 dan lain-lain.
+
+```dart
+import 'dart:io';
+
+void main() {
+  print("Masukkan bilangan bulat:");
+  int? number = int.parse(stdin.readLineSync()!);
+  print("Bilangan yang anda masukkan ${number}");
+}
+```
+
+### Menerima input jenis floating
+
+Anda dapat menggunakan input float untuk menerima nilai numerik dari user dengan nilai desimal, seperti 10.5, 100.5, -800.9 dan lain-lain.
+
+```dart
+import 'dart:io';
+
+void main() {
+  print("Masukkan bilangan desimal:");
+  double number = double.parse(stdin.readLineSync()!);
+  print("Bilangan yang anda masukkan $number");
+}
+```
+
 > **Tugas Latihan 1**
 >
 > 1. Buat program untuk mencetak nama Anda di Dart.
-> 2. Tulis program untuk mencetak Hello, saya "John Doe" dan Hello, saya "John Doe" dengan tanda kutip tunggal dan ganda.
-> 3. Deklarasikan konstanta dengan tipe\*\* int dan beri nilai 7.
+> 2. Tulis program untuk mencetak Hello, saya "John Doe" dan Hello, saya "John Doe" dengan tanda kutip tunggal dan ganda. Untuk nama gunakan inputan dari pengguna.
+> 3. Deklarasikan konstanta dengan tipe `int` dan beri nilai 7.
 > 4. Tulis program dalam Dart yang menemukan bunga sederhana. Rumus= (p \* t \* r) / 100
 > 5. Buat program untuk mencetak persegi dari suatu angka menggunakan input pengguna.
-> 6. Buat program untuk mencetak nama lengkap dari a berdasarkan nama depan dan nama belakang menggunakan input pengguna.
+> 6. Buat program untuk mencetak nama lengkap berdasarkan nama depan dan nama belakang menggunakan input pengguna.
 > 7. Buat program untuk menemukan hasil bagi dan sisa dari dua bilangan bulat.
 > 8. Buat program untuk menukar dua bilangan.
 > 9. Tulis program di Dart untuk menghapus semua spasi dari String.
