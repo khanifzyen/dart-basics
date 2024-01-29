@@ -2,15 +2,16 @@ import 'dart:io';
 
 void main() {
   stdout.write('masukkan hari : ');
-  String? hari = stdin.readLineSync();
+  String hari = stdin.readLineSync()!;
+  hari.toLowerCase();
   switch (hari) {
-    case "sabtu":
+    case "sabtu" || 'minggu':
       print("hari $hari adalah akhir pekan");
       break;
-    case "minggu":
-      print("hari $hari adalah akhir pekan");
+    case  "senin" || "selasa" || "rabu" || "kamis" || "jumat":
+      print("hari $hari adalah hari kerja");
       break;
     default:
-      print("hari $hari adalah hari kerja");
+      print("input yang anda masukkan salah");
   }
 }

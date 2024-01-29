@@ -4,11 +4,3 @@ void main() {
     print(i);
   }
 }
-// void main() {
-//   List<String> list = ['a', 'b', 'c'];
-//   List<String> reversedNumbers = [];
-//   for (String nama in list) {
-//     reversedNumbers.add(nama);
-//     print(reversedNumbers);
-//   }
-// }
