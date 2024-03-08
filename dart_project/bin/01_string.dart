@@ -1,4 +1,4 @@
 void main() {
   String data = "Hello Pemrograman Mobile";
-  print(data);
+  print(data.toUpperCase());
 }
